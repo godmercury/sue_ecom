@@ -1,0 +1,21 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        },
+        "files": ["app/functions/helper.php"]
+    },
+    "require": {
+        "vlucas/phpdotenv": "^2.4",
+        "altorouter/altorouter": "^1.2",
+        "philo/laravel-blade": "^3.1",
+        "illuminate/database": "^5.5",
+        "phpmailer/phpmailer": "^6.0"
+    },
+    "require-dev": {
+        "filp/whoops": "^2.1"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}

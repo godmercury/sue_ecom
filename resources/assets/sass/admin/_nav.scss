@@ -1,0 +1,52 @@
+.nav {
+   background-color: #2A3F54;
+
+   .menu > li > a {
+     color:#fff;
+     font-size: 1.2rem;
+
+     &:hover, &:focus, &:active {
+       background-color: darken(#2A3F54, 8%);
+     }
+   }
+
+  h3 {
+    color:#fff;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .image-holder {
+    padding:0.7rem;
+    background-color: #E93F49;
+
+    img {
+      border-radius: 50%;
+      border:1px solid darken(#E93F49, 15%);
+      padding: 0.3rem;
+      margin:0 auto;
+      height:200px;
+      width:200px;
+    }
+
+    p {
+      color:#fff;
+      font-size:1rem;
+    }
+
+
+  }
+
+}
+
+.admin-title-bar {
+  .title-bar {
+    background-color: #ededed;
+  }
+
+  .title-bar-title {
+    color:#0a0a0a;
+    font-size:1.5rem;
+  }
+}
